@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Realtime chat app with users & rooms - using Node & ExpressJs & Socket.io",
   "main": "index.js",
+  "engines": {
+    "node": "12.x"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,5 +26,10 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
-  }
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
 }
